@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #09dfbb;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.envio {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(6, 214, 169, 0.849);
+    width: 100%;
+    max-width: 600px; /* Limita el ancho para pantallas grandes */
+}
+
+.envio h2 {
+    margin-top: 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #0fe6c2;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0ceff7;
+}
+
+footer {
+    background-color: #0df5a8;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+}
+
+.my-button {
+    padding: 10px 20px;
+    background-color: #6ea791;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.my-button:hover {
+    background-color: #5a8d71;
+}
+
+.my-button:active {
+    background-color: #4a7d61;
+}
+
+/* Estilo para el mensaje de agradecimiento */
+.thank-you-message {
+    display: none;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+}
